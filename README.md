@@ -2,6 +2,8 @@
 https://www.kaggle.com/c/digit-recognizer/overview
 
 ## Project structure
+
+```bash
 │
 ├── data
 ├── dataset
@@ -15,3 +17,4 @@ https://www.kaggle.com/c/digit-recognizer/overview
 │   ├── logs
 ├── trainer
 ├── utils
+```
