@@ -1,0 +1,14 @@
+output_dir: 'experiments/output'
+dataset:
+  name: 'digit-recognizer'
+  root: 'data'
+model:
+  name: 'cnn'
+  checkpoint: 'experiments/output'
+train:
+  batch_size: 16
+  optimizer: 'adam'
+  lr: 0.001
+  num_epochs: 50
+  log_dir: 'experiments/logs'
+  device: 'cpu'
